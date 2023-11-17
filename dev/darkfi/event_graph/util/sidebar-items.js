@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["DAY"],"fn":["days_since","midnight_timestamp","next_rotation_timestamp"]};

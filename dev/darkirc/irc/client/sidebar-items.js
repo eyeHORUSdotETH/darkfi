@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["PENALTY_LIMIT"],"enum":["ReplyType"],"struct":["Client"]};

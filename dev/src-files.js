@@ -1,0 +1,25 @@
+var srcIndex = JSON.parse('{\
+"darkfi":["",[["blockchain",[],["block_store.rs","contract_store.rs","header_store.rs","mod.rs","slot_store.rs","tx_store.rs"]],["consensus",[["proto",[],["mod.rs","protocol_proposal.rs","protocol_sync.rs","protocol_sync_consensus.rs","protocol_tx.rs"]],["task",[],["block_sync.rs","consensus_sync.rs","mod.rs","proposal.rs"]]],["block.rs","clock.rs","constants.rs","fees.rs","lead_coin.rs","lead_info.rs","mod.rs","rcpt.rs","state.rs","stx.rs","tx.rs","types.rs","utils.rs","validator.rs","wallet.rs"]],["event_graph",[],["event.rs","mod.rs","proto.rs","util.rs"]],["geode",[],["mod.rs"]],["net",[["protocol",[],["mod.rs","protocol_address.rs","protocol_base.rs","protocol_jobs_manager.rs","protocol_ping.rs","protocol_registry.rs","protocol_seed.rs","protocol_version.rs"]],["session",[],["inbound_session.rs","manual_session.rs","mod.rs","outbound_session.rs","seedsync_session.rs"]],["transport",[],["mod.rs","nym.rs","tcp.rs","tls.rs","tor.rs","unix.rs"]]],["acceptor.rs","channel.rs","connector.rs","dnet.rs","hosts.rs","message.rs","message_subscriber.rs","mod.rs","p2p.rs","settings.rs"]],["rpc",[],["client.rs","clock_sync.rs","common.rs","from_impl.rs","jsonrpc.rs","mod.rs","p2p_method.rs","server.rs","util.rs"]],["runtime",[["import",[],["db.rs","merkle.rs","mod.rs","util.rs"]]],["memory.rs","mod.rs","vm_runtime.rs"]],["system",[],["condvar.rs","lazy_weak.rs","mod.rs","stoppable_task.rs","subscriber.rs","timeout.rs"]],["tx",[],["mod.rs"]],["util",[["encoding",[],["base32.rs","base64.rs","mod.rs"]]],["cli.rs","file.rs","mod.rs","parse.rs","path.rs","pcg.rs","ringbuffer.rs","time.rs"]],["validator",[],["consensus.rs","float_10.rs","mod.rs","pid.rs","pow.rs","utils.rs","validation.rs","verification.rs"]],["wallet",[],["mod.rs","walletdb.rs"]],["zk",[["gadget",[],["arithmetic.rs","cond_select.rs","is_zero.rs","less_than.rs","mod.rs","native_range_check.rs","small_range_check.rs","zero_cond.rs"]]],["debug.rs","mod.rs","proof.rs","tracer.rs","vm.rs","vm_heap.rs"]],["zkas",[],["analyzer.rs","ast.rs","compiler.rs","constants.rs","decoder.rs","error.rs","lexer.rs","mod.rs","opcode.rs","parser.rs","types.rs"]]],["error.rs","lib.rs"]],\
+"darkfi_consensus_contract":["",[["client",[],["common.rs","genesis_stake_v1.rs","mod.rs","proposal_v1.rs","stake_v1.rs","unstake_request_v1.rs","unstake_v1.rs"]]],["error.rs","lib.rs","model.rs"]],\
+"darkfi_contract_test_harness":["",[],["benchmarks.rs","consensus_genesis_stake.rs","consensus_proposal.rs","consensus_stake.rs","consensus_unstake.rs","consensus_unstake_request.rs","dao_exec.rs","dao_mint.rs","dao_propose.rs","dao_vote.rs","lib.rs","money_airdrop.rs","money_genesis_mint.rs","money_otc_swap.rs","money_pow_reward.rs","money_token.rs","money_transfer.rs","vks.rs"]],\
+"darkfi_dao_contract":["",[["client",[],["exec.rs","mint.rs","mod.rs","propose.rs","vote.rs"]]],["error.rs","lib.rs","model.rs"]],\
+"darkfi_deployooor_contract":["",[],["error.rs","lib.rs","model.rs"]],\
+"darkfi_derive":["",[],["lib.rs"]],\
+"darkfi_derive_internal":["",[],["async_derive.rs","lib.rs","sync_derive.rs"]],\
+"darkfi_mmproxy":["",[],["error.rs","main.rs","stratum.rs"]],\
+"darkfi_money_contract":["",[["client",[],["genesis_mint_v1.rs","mod.rs","pow_reward_v1.rs","stake_v1.rs","swap_v1.rs","token_freeze_v1.rs","token_mint_v1.rs","transfer_v1.rs","unstake_v1.rs"]]],["error.rs","lib.rs","model.rs"]],\
+"darkfi_sdk":["",[["crypto",[["constants",[["fixed_bases",[],["commit_ivk_r.rs","note_commit_r.rs","nullifier_k.rs","spend_auth_g.rs","value_commit_r.rs","value_commit_v.rs"]]],["fixed_bases.rs","sinsemilla.rs","util.rs"]]],["constants.rs","contract_id.rs","diffie_hellman.rs","ecvrf.rs","keypair.rs","merkle_node.rs","mimc_vdf.rs","mod.rs","note.rs","nullifier.rs","pedersen.rs","schnorr.rs","smt.rs","token_id.rs","util.rs"]]],["blockchain.rs","db.rs","entrypoint.rs","error.rs","lib.rs","log.rs","merkle.rs","tx.rs","util.rs"]],\
+"darkfi_serial":["",[["types",[],["bridgetree.rs","collections.rs","hash.rs","pasta.rs","semver.rs","url.rs"]]],["async_lib.rs","endian.rs","lib.rs","types.rs"]],\
+"darkfid":["",[],["error.rs","main.rs","rpc_blockchain.rs","rpc_misc.rs","rpc_tx.rs","rpc_wallet.rs"]],\
+"darkfid2":["",[["proto",[],["mod.rs","protocol_block.rs","protocol_proposal.rs","protocol_sync.rs","protocol_tx.rs"]],["task",[],["miner.rs","mod.rs","sync.rs"]]],["error.rs","main.rs","rpc.rs","rpc_blockchain.rs","rpc_tx.rs","utils.rs"]],\
+"darkirc":["",[["crypto",[],["mod.rs","saltbox.rs"]],["irc",[],["client.rs","command.rs","mod.rs","rpl.rs","server.rs"]]],["main.rs","rpc.rs","settings.rs"]],\
+"faucetd":["",[],["error.rs","main.rs"]],\
+"fud":["",[],["main.rs","proto.rs"]],\
+"genev":["",[],["main.rs","rpc.rs"]],\
+"genevd":["",[],["lib.rs"]],\
+"lilith":["",[],["main.rs"]],\
+"taud":["",[],["error.rs","lib.rs","month_tasks.rs","task_info.rs","util.rs"]],\
+"vanityaddr":["",[],["main.rs"]],\
+"zkas":["",[],["main.rs"]]\
+}');
+createSrcSidebar();

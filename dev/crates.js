@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["darkfi","darkfi_consensus_contract","darkfi_contract_test_harness","darkfi_dao_contract","darkfi_deployooor_contract","darkfi_derive","darkfi_derive_internal","darkfi_mmproxy","darkfi_money_contract","darkfi_sdk","darkfi_serial","darkfid","darkfid2","darkirc","faucetd","fud","genev","genevd","lilith","taud","vanityaddr","zkas"];

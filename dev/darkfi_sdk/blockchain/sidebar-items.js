@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["POS_START","POW_CUTOFF"],"fn":["block_version","expected_reward"],"struct":["PidOutput","PreviousSlot","Slot"]};

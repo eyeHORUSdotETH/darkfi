@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["LOCAL_HOST_STRS"],"struct":["Hosts"],"type":["HostsPtr"]};

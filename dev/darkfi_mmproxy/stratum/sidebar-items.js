@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["RANDOMX_ALGO"],"fn":["getblocktemplate","monerod_request"],"struct":["MiningJob","Worker"]};
